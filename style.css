@@ -1,0 +1,1559 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+
+    font-family: 'bold';
+    src: url("font/Poppins-Bold.ttf");
+}
+
+
+@font-face {
+
+    font-family: 'xbold';
+    src: url("font/Poppins-ExtraBold.ttf") format('truetype');
+}
+
+
+@font-face {
+
+    font-family: 'normal';
+    src: url("font/Poppins-Light.ttf") format('truetype');
+}
+
+@font-face {
+
+    font-family: 'medium';
+    src: url("font/Poppins-Medium.ttf") format('truetype');
+}
+
+
+a:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+body {
+    background: black;
+}
+
+button {
+    color: #ffffff !important;
+    box-shadow: none !important;
+    /* background: #688ef6 !important; */
+}
+
+
+a {
+    font-family: 'normal', sans-serif;
+    font-weight: normal;
+}
+
+
+h1,
+h2 {
+    font-family: 'bold', sans-serif;
+    color: rgb(8, 44, 250) !important;
+    font-weight: bold;
+}
+
+h3,h4 {
+    font-family: 'xbold', sans-serif;
+    color: rgb(97, 121, 255) !important;
+}
+
+p {
+    font-family: 'normal', sans-serif;
+    font-weight: normal;
+    color: white !important;
+}
+
+
+
+/* NAVBAR STYLING */
+
+nav {
+    background: none;
+    padding-top: 20px !important;
+}
+
+
+nav .navbar-brand img {
+    width: 80px;
+    margin-left: 20px;
+}
+
+nav button img {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+    width: 30px;
+}
+
+nav .btn-close {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+}
+
+nav .btn-close:focus {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+}
+
+nav .offcanvas {
+    background: #181818;
+    transition: 0.5s;
+    width: 100%;
+    padding: 0 50PX 0 50px;
+}
+
+nav .offcanvas offcanvas-body .navbar-nav {
+    display: flex !important;
+}
+
+nav .offcanvas h5 {
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+nav .offcanvas h5 img {
+    width: 40px;
+}
+
+nav .offcanvas ul li {
+    margin-left: 20px;
+    display: flex;
+}
+
+nav .offcanvas ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 30px;
+    font-family: 'bold', sans-serif;
+    margin-right: 50px;
+}
+
+nav .offcanvas ul li a:focus {
+    color: white;
+}
+
+nav .offcanvas ul li a:hover {
+    color: #5cace2 !important;
+}
+
+nav .offcanvas .icons img{
+    width: 30px;
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+    margin: 30px 0 0 20px;
+}
+
+
+
+/* ------------------------------------------ main body -------------------------------------- */
+
+.home-sec-1{
+    width: 100%;
+    height: fit-content;
+}
+
+.text-box{
+    background: linear-gradient(90deg, #1612f5, #5cace2);
+    -webkit-text-fill-color: transparent ;
+    -webkit-background-clip: text;
+}
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box h1{
+  font-size: 80px;
+  margin-top: 80px;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box .text{
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 0 20% 0 20% !important;
+  
+}
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box p a{
+ background: linear-gradient(90deg, #209cee, #1612f5);
+ padding: 10px 50px 10px 50px;
+ color: white;
+ border: none;
+ border-radius: 35px;
+ margin-top: 20px;
+}
+
+/* --------------- back video-------------------- */
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+
+/*------------------------------------------------------ BOdy page ------------------------------------------ */
+/* ------------------ srection 2------------------------------------- */
+
+.home-sec-2{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px !important;
+    padding-bottom: 70px !important;
+}
+
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image{
+    display: flex;
+    justify-content: center;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image img{
+ width: 50%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text{
+  margin-top: 30%;
+  margin-left: -10%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text p{
+  background: linear-gradient(90deg, #2724f5,#2fa7f7 );
+  padding: 10px 30px 10px 30px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text{
+    background: rgb(19, 19, 19);
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    margin-left: -3%; 
+    border: 2px solid #2fa7f7;
+    border-radius: 50px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text h2{
+    color: white !important;
+    margin-top: 50px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text p{
+    color: white !important;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* ------------------ section 3 ------------------------- */
+.home-sec-3{
+    width: 100%;
+    height: fit-content;
+    background-image: url("image/Bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-sec-3 .home-sec-3-container{
+    margin: 50px 0 30px 0;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box h3{
+   font-weight: normal !important;
+}
+
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box p{
+   margin-top: 20px;
+}
+
+
+
+/* -------------------- Setion 4 ---------------------------- */
+.home-sec-4{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px !important;
+    padding-bottom: 70px !important;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box{
+    text-align: center;
+    background: rgb(19, 19, 19);
+     border: 2px solid #2fa7f7;
+     border-radius: 30px;
+     width: 30%;
+     margin-left: 33px;
+     padding: 0 30px 20px 30px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box h3{
+   font-family: 'normal', sans-serif;
+   font-size: 20px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box p{
+   font-size: 14px;
+   margin-top: 20px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box span img{
+    width: 65px;
+    margin-top: -20% !important;
+}
+
+
+
+
+/* ------------------- section 5 --------------------------- */
+.home-sec-5{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px !important;
+}
+
+.home-sec-5 .home-sec-5-container h3{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.home-sec-5 .home-sec-5-container h3 span{
+   font-family: 'normal', sans-serif;
+   font-size: 25px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box{
+    margin-left: 37px;
+    margin-top: 30px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box img {
+    width: 100px;
+     margin-left: 37px;
+}
+
+/*-------------------------- .mini-sec --------------------------- */
+.mini-sec{
+    background-image: url("image/Bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* -------------------------------  team ------------------------- */
+.team{
+    width: 100%;
+    height: fit-content;
+}
+
+.team h1{
+    margin-top: 50px;
+}
+
+.team .team-container .team-image-box{
+    background: #181818 ;
+    border: 1px solid #209cee;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.team .team-container .team-image-box .image{
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.team .team-container .team-image-box h3{
+    font-size: 18px;
+    font-family: 'normal', sans-serif;
+    font-weight: bolder;
+}
+
+
+.team .team-container .team-image-box p{
+    font-size: 14px;
+}
+
+
+.team .team-container .team-image-box p a img{
+    width: 30px;
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+}
+
+
+
+
+
+/* -------------------------------  footer session ----------------------------------- */
+
+.footer{
+    width: 100%;
+    height: fit-content;
+}
+
+.footer .footer-container{
+    padding-top: 70px !important;
+}
+
+.footer .footer-container .footer-container-box h3{
+    margin-top: 50px;
+    font-family: 'normal', sans-serif;
+    font-weight: bolder;
+}
+
+.footer .footer-container .footer-container-box p a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-container .footer-container-box p a:hover{
+    color: #5cace2;
+}
+
+
+.footer .footer-container .copy-right{
+    margin-top: 50px;
+    font-size: 10px;
+    
+}
+
+.footer .footer-container .copy-right p{
+color: rgb(179, 176, 176) !important;
+}
+
+
+
+
+/* -------------------------------------------- About Page ------------------------------------------ */
+
+.about-sec-1{
+    width: 100%;
+    height: fit-content;
+}
+
+.about-sec-1 .about-sec-1-container{
+    border: none;
+    padding: 50px 0 50px 0;
+    margin: 0 20px 0 20px;
+    border-right: 2px solid  #209cee;
+    border-left: 2px solid  #209cee;
+    border-radius: 20px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box{
+    padding: 0 10% 0 10%;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box h1{
+    font-size: 70px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p a{
+    background: linear-gradient(90deg, #209cee, #1612f5);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+
+/* ------------------------------------- about section 2----------------------------- */
+
+.about-sec-2{
+    width: 100%;
+    height: fit-content;
+    background-image: url("image/bg\ 2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box{
+    padding-right: 20%;
+    padding-left: 3%;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box h3{
+    margin-top: 50px;
+    font-family: 'normal', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* ------------------------------ responsive views -----------------------*/
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    nav .offcanvas {
+        padding: 0 20PX 0 20px;
+    }
+
+    nav .offcanvas ul li a {
+        font-size: 20px;
+    }
+
+    nav .offcanvas .icons img{
+        width: 25px;
+        margin: 30px 0 0 10px;
+    }
+
+
+    /* ------------------------------------------ main body -------------------------------------- */
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box h1{
+  font-size: 50px;
+}
+
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box .text{
+  font-size: 15px;
+  padding: 0 10% 0 10% !important;
+  
+}
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box p a{
+ margin-top: 16px;
+}
+
+
+
+
+/* ----------------------------------------------------------- body page ----------------------------------------------------- */
+/* ------------------ srection 2------------------------------------- */
+
+.home-sec-2{
+    padding-top: 70px !important;
+}
+
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image{
+    display: block;
+    justify-content: center;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image img{
+ width: 80%;
+ margin-top: 30;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text{
+  margin-top: -2%;
+ margin-left: 20%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text p{
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 50%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text{
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text h2{
+    margin-top: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+/* ------------------ section 3 ------------------------- */
+
+.home-sec-3 .home-sec-3-container{
+    margin: 50px 0 10px 0;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box{
+    padding: 10px 30px 10px 30px;
+}
+
+
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box p{
+   margin-top: 16px;
+   font-size:  14px;
+}
+
+
+
+/* -------------------- Setion 4 ---------------------------- */
+.home-sec-4{
+    padding-top: 80px !important;
+    padding-bottom: 60px !important;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box{
+     border-radius: 20px;
+     margin-left: 20px;
+     padding: 0 25px 20px 25px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box h3{
+   font-size: 16px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box p{
+   font-size: 10px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box span img{
+    margin-top: -30% !important;
+}
+
+
+/* ------------------- section 5 --------------------------- */
+
+.home-sec-5 .home-sec-5-container h3{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.home-sec-5 .home-sec-5-container h3 span{
+   font-size: 20px;
+   width: 80px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box{
+    margin-left: 20px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box img{
+    margin-left: 0;
+}
+
+
+
+/* -------------------------------  team ------------------------- */
+
+
+.team .team-container .team-image-box{
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right:10px;
+    margin-left: 12px;
+    padding: 20px;
+    width: 30%;
+}
+
+.team .team-container .team-image-box .image{
+    width: 90px;
+}
+
+
+.team .team-container .team-image-box h3{
+    font-size: 15px;
+}
+
+
+.team .team-container .team-image-box p{
+    font-size: 12px;
+}
+
+
+
+
+/* -------------- footer section -------------------  */
+
+.footer h1{    
+    font-size: 30px;
+}
+
+.footer .footer-container .footer-container-box h3{
+    font-size: 16px;
+}
+
+.footer .footer-container .footer-container-box p a{
+    font-size: 12px;
+    margin: 0 !important;
+}
+
+
+
+/* -------------------------------------------- About Page ------------------------------------------ */
+
+.about-sec-1 .about-sec-1-container{
+    padding: 30px 0 30px 0;
+    margin: 0 15px 0 15px;
+    border-right: 1.5px solid  #209cee;
+    border-left: 1.5px solid  #209cee;
+    border-radius: 15px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box{
+    padding: 0 6% 0 6%;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box h1{
+    font-size: 55px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p{
+    font-size: 14px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p a{
+    padding: 10px 40px 10px 40px;
+}
+
+
+/* ------------------------------------- about section 2----------------------------- */
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box{
+    padding: 0 5% 0 5%;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box p{
+    font-size: 14px;
+}
+
+}
+
+
+
+
+
+
+
+
+/* for large mobile view  */
+@media only screen and (min-width: 500px) and (max-width: 767px) and (orientation: portrait) {
+
+    nav .offcanvas {
+        padding: 0 15PX 0 15px;
+    }
+
+    nav .offcanvas offcanvas-body .navbar-nav {
+        display: flex !important;
+    }
+
+    nav .offcanvas h5 img {
+        width: 35px;
+    }
+
+    nav .offcanvas ul li a {
+        font-size: 18px;
+        margin-right: 11px;
+    }
+
+
+    nav .offcanvas .icons img{
+    width: 25px;
+    margin: 30px 0 0 10px;
+}
+
+    
+    /* ------------------------------------------ main body -------------------------------------- */
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box h1{
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box .text{
+  font-size: 14px;
+  margin-top: 25px;
+  padding: 0 10% 0 10% !important;
+  
+}
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box p a{
+ padding: 10px 40px 10px 40px;
+ margin-top: 20px;
+}
+
+
+
+/* ------------------------------------------ body page ------------------------------------- */
+/* ------------------ srection 2------------------------------------- */
+
+.home-sec-2{
+    padding-top: 50px !important;
+}
+
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image{
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image img{
+ width: 50%;
+ margin-left: -20%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text{
+  margin-top: 30%;
+ margin-left: -7%;
+ font-size: 12px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text p{
+  padding: 7px 25px 7px 25px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text{
+    padding: 15px 25px 15px 25px;
+    margin-left: 0;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text h2{
+    margin-top: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text p{
+    font-size: 12px;
+}
+
+
+
+/* ------------------ section 3 ------------------------- */
+
+.home-sec-3 .home-sec-3-container{
+    margin: 50px 0 30px 0;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box{
+    padding: 10px 50px 10px 50px;
+}
+
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box p{
+   margin-top: 20px;
+   font-size:  14px;
+}
+
+.home-sec-3 .home-sec-3-container .second{
+   margin-top: 30px;
+}
+
+
+
+/* -------------------- Setion 4 ---------------------------- */
+.home-sec-4{
+    padding-top: 60px !important;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box{
+     border-radius: 20px;
+     width: auto;
+     margin-left: 0;
+     padding: 0 25px 20px 25px;
+     margin-top: 60px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box h3{
+   font-size: 18px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box p{
+   font-size: 12px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box span img{
+    width: 70px;
+    margin-top: -15% !important;
+}
+
+
+
+/* ------------------- section 5 --------------------------- */
+
+.home-sec-5 .home-sec-5-container h3{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.home-sec-5 .home-sec-5-container h3 span{
+   font-size: 17px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 80px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box img {
+    width: 100px;
+     margin-left: 0;
+}
+
+
+
+/* -------------------------------  team ------------------------- */
+
+.team h1{
+    margin-top: 50px;
+}
+
+.team .team-container .team-image-box{
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 45%;
+}
+
+.team .team-container .team-image-box .image{
+    width: 85px;
+}
+
+
+.team .team-container .team-image-box h3{
+    font-size: 15px;
+}
+
+
+.team .team-container .team-image-box p{
+    font-size: 12px;
+}
+
+
+
+
+/* -------------------------------  footer session ----------------------------------- */
+
+.footer h1{    
+    font-size: 25px;
+}
+
+.footer .footer-container .footer-container-box h3{
+    font-size: 20px;
+}
+
+.footer .footer-container .footer-container-box p a{
+    font-size: 14px;
+}
+
+
+
+
+/* -------------------------------------------- About Page ------------------------------------------ */
+
+
+.about-sec-1 .about-sec-1-container{
+    padding: 30px 0 30px 0;
+    margin: 0 5px 0 5px;
+    border-right: 1px solid  #209cee;
+    border-left: 1px solid  #209cee;
+    border-radius: 10px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box{
+    padding: 0 6% 0 6%;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box h1{
+    font-size: 40px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p{
+    font-size: 12px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p a{
+    padding: 10px 40px 10px 40px;
+}
+
+
+
+/* ------------------------------------- about section 2----------------------------- */
+
+.about-sec-2{
+    background-image: url("image/phonebg.png");
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box{
+    padding: 0 5% 0 5%;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box p{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+
+
+
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+
+    /* navbar */
+
+    nav .offcanvas {
+        padding: 0 12px 0 12px;
+    }
+
+    nav .offcanvas offcanvas-body .navbar-nav {
+        display: flex !important;
+    }
+
+    nav .offcanvas h5 img {
+        width: 35px;
+    }
+
+    nav .offcanvas ul li a {
+        font-size: 13px;
+        margin-right: 11px;
+    }
+
+    nav .offcanvas .icons img{
+        width: 25px;
+        margin: 30px 0 0 10px;
+    }
+
+     /* ------------------------------------------ main body -------------------------------------- */
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box h1{
+  font-size: 40px;
+  margin-top: 70px;
+}
+
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box .text{
+  font-size: 12px;
+  margin-top: 25px;
+  padding: 0 10% 0 10% !important;
+  
+}
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box p a{
+ padding: 10px 40px 10px 40px;
+ margin-top: 20px;
+}
+
+
+
+
+/* -------------------------------------- body page -------------------------------------- */
+/* ------------------ srection 2------------------------------------- */
+
+.home-sec-2{
+    padding-top: 50px !important;
+}
+
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image img{
+ width: 50%;
+ margin-left: -20%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text{
+  margin-top: 30%;
+ margin-left: -7%;
+ font-size: 12px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text p{
+  padding: 7px 25px 7px 25px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text{
+    padding: 15px 30px 15px 30px;
+    margin-left: 0;
+    border-radius: 25px;
+    margin-top: 10%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text h2{
+    margin-top: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text p{
+    font-size: 12px;
+}
+
+
+
+/* ------------------ section 3 ------------------------- */
+
+.home-sec-3 .home-sec-3-container{
+    margin: 50px 0 10px 0;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box{
+    padding: 10px 40px 10px 40px;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box h1{
+   font-size:  16px;
+}
+
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box p{
+   margin-top: 16px;
+   font-size:  12px;
+}
+
+.home-sec-3 .home-sec-3-container .second{
+   margin-top: 30px;
+}
+
+
+/* -------------------- Setion 4 ---------------------------- */
+.home-sec-4{
+    padding-top: 60px !important;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box{
+     border-radius: 20px;
+     width: auto;
+     margin-left: 0;
+     padding: 0 30px 20px 30px;
+     margin-top: 60px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box h3{
+   font-size: 18px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box p{
+   font-size: 12px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box span img{
+    width: 70px;
+    margin-top: -17% !important;
+}
+
+
+
+/* ------------------- section 5 --------------------------- */
+
+.home-sec-5 .home-sec-5-container h3{
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+.home-sec-5 .home-sec-5-container h3 span{
+   font-size: 16px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 80px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box img {
+    width: 100px;
+    margin-left: 0;
+}
+
+
+
+/* -------------------------------  team ------------------------- */
+
+.team h1{
+    margin-top: 50px;
+}
+
+.team .team-container .team-image-box{
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 45%;
+}
+
+.team .team-container .team-image-box .image{
+    width: 85px;
+}
+
+
+.team .team-container .team-image-box h3{
+    font-size: 14px;
+}
+
+
+.team .team-container .team-image-box p{
+    font-size: 12px;
+}
+
+
+
+/* -------------- footer section -------------------  */
+
+.footer h1{    
+    font-size: 25px;
+}
+
+.footer .footer-container .footer-container-box h3{
+    font-size: 16px;
+}
+
+.footer .footer-container .footer-container-box p a{
+    font-size: 12px;
+    margin: 0 !important;
+}
+
+
+
+/* -------------------------------------------- About Page ------------------------------------------ */
+
+
+.about-sec-1 .about-sec-1-container{
+    padding: 30px 0 30px 0;
+    margin: 0 5px 0 5px;
+    border-right: 1px solid  #209cee;
+    border-left: 1px solid  #209cee;
+    border-radius: 10px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box{
+    padding: 0 6% 0 6%;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box h1{
+    font-size: 35px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p{
+    font-size: 10px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p a{
+    padding: 10px 35x 10px 35px;
+}
+
+
+
+/* ------------------------------------- about section 2----------------------------- */
+
+.about-sec-2{
+    background-image: url("image/phonebg.png");
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box{
+    padding: 0 5% 0 5%;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box p{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 667px) and (orientation: landscape) {
+
+    /* navbar */
+    nav .offcanvas {
+        padding: 0 15px 0 15px;
+    }
+
+    nav .offcanvas offcanvas-body .navbar-nav {
+        display: flex !important;
+    }
+
+    nav .offcanvas h5 img {
+        width: 35px;
+    }
+
+    nav .offcanvas ul li a {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+
+    nav .offcanvas .icons img{
+        width: 25px;
+        margin: 30px 0 0 10px;
+    }
+
+
+     /* ------------------------------------------ main body -------------------------------------- */
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box h1{
+  font-size: 40px;
+  margin-top:0;
+}
+
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box .text{
+  font-size: 12px;
+  margin-top: 25px;
+  padding: 0 10% 0 10% !important;
+  
+}
+
+
+.home-sec-1 .home-sec-1-container .home-sec-1-container-box p a{
+ padding: 10px 40px 10px 40px;
+ margin-top: 20px;
+}   
+
+
+/* -------------------------------------------------body page------------------------------------------------- */
+/* ------------------ srection 2------------------------------------- */
+
+.home-sec-2{
+    padding-top: 50px !important;
+}
+
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image img{
+ width: 50%;
+ margin-left: -20%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text{
+  margin-top: 30%;
+ margin-left: -7%;
+ font-size: 12px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-image .design-text p{
+  padding: 7px 25px 7px 25px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text{
+    padding: 15px 30px 15px 30px;
+    margin-left: 0;
+    border-radius: 25px;
+    margin-top: 10%;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text h2{
+    margin-top: 30px;
+}
+
+.home-sec-2 .home-sec-2-container .home-sec-2-container-text p{
+    font-size: 12px;
+}
+
+
+
+/* ------------------ section 3 ------------------------- */
+
+.home-sec-3 .home-sec-3-container{
+    margin: 50px 0 10px 0;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box{
+    padding: 10px 40px 10px 40px;
+}
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box h1{
+   font-size:  16px;
+}
+
+
+.home-sec-3 .home-sec-3-container .home-sec-3-container-box p{
+   margin-top: 16px;
+   font-size:  12px;
+}
+
+.home-sec-3 .home-sec-3-container .second{
+   margin-top: 30px;
+}
+
+
+
+/* -------------------- Setion 4 ---------------------------- */
+.home-sec-4{
+    padding-top: 60px !important;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box{
+     border-radius: 20px;
+     width: auto;
+     margin-left: 0;
+     padding: 0 30px 20px 30px;
+     margin-top: 60px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box h3{
+   font-size: 18px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box p{
+   font-size: 12px;
+}
+
+.home-sec-4 .home-sec-4-container .home-sec-4-container-box span img{
+    width: 70px;
+    margin-top: -10% !important;
+}
+
+
+/* ------------------- section 5 --------------------------- */
+
+.home-sec-5 .home-sec-5-container h3{
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+.home-sec-5 .home-sec-5-container h3 span{
+   font-size: 16px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.home-sec-5 .home-sec-5-container .home-sec-5-container-box img {
+    width: 100px;
+    margin-left: 0;
+}
+
+
+
+/* -------------------------------  team ------------------------- */
+
+.team h1{
+    margin-top: 50px;
+}
+
+.team .team-container .team-image-box{
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 45%;
+}
+
+.team .team-container .team-image-box .image{
+    width: 85px;
+}
+
+
+.team .team-container .team-image-box h3{
+    font-size: 15px;
+}
+
+
+.team .team-container .team-image-box p{
+    font-size: 12px;
+}
+
+
+
+/* -------------- footer section -------------------  */
+
+.footer h1{    
+    font-size: 25px;
+}
+
+.footer .footer-container .footer-container-box h3{
+    font-size: 16px;
+}
+
+.footer .footer-container .footer-container-box p a{
+    font-size: 12px;
+    margin: 0 !important;
+}
+
+
+/* -------------------------------------------- About Page ------------------------------------------ */
+
+
+.about-sec-1 .about-sec-1-container{
+    padding: 30px 0 30px 0;
+    margin: 0 5px 0 5px;
+    border-right: 1px solid  #209cee;
+    border-left: 1px solid  #209cee;
+    border-radius: 10px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box{
+    padding: 0 6% 0 6%;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box h1{
+    font-size: 35px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p{
+    font-size: 10px;
+}
+
+.about-sec-1 .about-sec-1-container .about-sec-1-container-box p a{
+    padding: 10px 35x 10px 35px;
+}
+
+
+/* ------------------------------------- about section 2----------------------------- */
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box{
+    padding: 0 5% 0 5%;
+}
+
+.about-sec-2 .about-sec-2-container .about-sec-2-container-box p{
+    font-size: 12px;
+}
+
+
+  }
